@@ -4,18 +4,18 @@ ref: https://google.github.io/styleguide/htmlcssguide.html
 
 ### Table of Contents
 
-[1 Background](#Background)
-[2 General](#General)
-[2.1 General Style Rules](#General_Style_Rules)
-[2.2 General Formatting Rules](#General_Formatting_Rules)
-[2.3 General Meta Rules](#General_Meta_Rules)
-[3 HTML](#HTML)
-[3.1 HTML Style Rules](#HTML_Style_Rules)
-[3.2 HTML Formatting Rules](#HTML_Formatting_Rules)
-[4 CSS](#CSS)
-[4.1 CSS Style Rules](#CSS_Style_Rules)
-[4.2 CSS Formatting Rules](#CSS_Formatting_Rules)
-[4.3 CSS Meta Rules](#CSS_Meta_Rules)
+[1 Background](#Background)  
+[2 General](#General)  
+[2.1 General Style Rules](#General_Style_Rules)  
+[2.2 General Formatting Rules](#General_Formatting_Rules)  
+[2.3 General Meta Rules](#General_Meta_Rules)  
+[3 HTML](#HTML)  
+[3.1 HTML Style Rules](#HTML_Style_Rules)  
+[3.2 HTML Formatting Rules](#HTML_Formatting_Rules)  
+[4 CSS](#CSS)  
+[4.1 CSS Style Rules](#CSS_Style_Rules)  
+[4.2 CSS Formatting Rules](#CSS_Formatting_Rules)  
+[4.3 CSS Meta Rules](#CSS_Meta_Rules)  
 [Parting Word](#Parting_Words)
 
 ## <a name="Background">1 Background </a>
@@ -26,7 +26,7 @@ This document defines formatting and style rules for HTML and CSS. It aims at im
 
 ### <a name="General_Style_Rules">2.1 General Style Rules</a>
 
-#### <a name="Protocol">2.1.1 Protocol</a>
+#### 2.1.1 Protocol
 
 Use HTTPS for embedded resources where possible.
 
@@ -48,7 +48,7 @@ Always use HTTPS (`https:`) for images and other media files, style sheets, and 
 
 ### <a name="General_Formatting_Rules">2.2 General Formatting Rules</a>
 
-#### <a name="Indentation">2.2.1 Indentation</a>
+#### 2.2.1 Indentation
 
 Indent by 2 spaces at a time.
 
@@ -63,7 +63,7 @@ Don’t use tabs or mix tabs and spaces for indentation.
 .example { color: blue; }
 ```
 
-#### 2.2.2 Capitalization<a name="Capitalization)
+#### 2.2.2 Capitalization
 
 Use only lowercase.
 
@@ -77,7 +77,7 @@ All code has to be lowercase: This applies to HTML element names, attributes, at
 /* Not recommended */ color: #E5E5E5; /* Recommended */ color: #e5e5e5;
 ```
 
-#### 2.2.3 Trailing Whitespace<a name="Trailing_Whitespace)
+#### 2.2.3 Trailing Whitespace
 
 Remove trailing white spaces.
 
@@ -93,9 +93,9 @@ Trailing white spaces are unnecessary and can complicate diffs.
 <p>Yes please.</p>
 ```
 
-### 2.3 General Meta Rules<a name="General_Meta_Rules)
+### <a name="General_Meta_Rules">2.3 General Meta Rules</a>
 
-#### 2.3.1 Encoding<a name="Encoding)
+#### 2.3.1 Encoding
 
 Use UTF-8 (no BOM).
 
@@ -105,7 +105,7 @@ Specify the encoding in HTML templates and documents via `<meta charset="utf-8">
 
 (More on encodings and when and how to specify them can be found in [Handling character encodings in HTML and CSS](https://www.w3.org/International/tutorials/tutorial-char-enc/).)
 
-#### 2.3.2 Comments<a name="Comments)
+#### 2.3.2 Comments
 
 Explain code as needed, where possible.
 
@@ -113,7 +113,7 @@ Use comments to explain code: What does it cover, what purpose does it serve, wh
 
 (This item is optional as it is not deemed a realistic expectation to always demand fully documented code. Mileage may vary heavily for HTML and CSS code and depends on the project’s complexity.)
 
-#### 2.3.3 Action Items<a name="Action_Items)
+#### 2.3.3 Action Items
 
 Mark todos and action items with `TODO`.
 
@@ -133,11 +133,11 @@ Append action items after a colon as in `TODO: action item`.
 </ul>
 ```
 
-## 3 HTML<a name="HTML)
+## <a name="HTML">3 HTML</a>
 
-### 3.1 HTML Style Rules<a name="HTML_Style_Rules)
+### <a name="HTML_Style_Rules">3.1 HTML Style Rules</a>
 
-#### 3.1.1 Document Type<a name="Document_Type)
+#### 3.1.1 Document Type
 
 Use HTML5.
 
@@ -147,7 +147,7 @@ HTML5 (HTML syntax) is preferred for all HTML documents: `<!DOCTYPE html>`.
 
 Although fine with HTML, do not close void elements, i.e. write `<br>`, not `<br />`.
 
-#### 3.1.2 HTML Validity<a name="HTML_Validity)
+#### 3.1.2 HTML Validity
 
 Use valid HTML where possible.
 
@@ -170,7 +170,7 @@ Using valid HTML is a measurable baseline quality attribute that contributes to 
 </article>
 ```
 
-#### 3.1.3 Semantics<a name="Semantics)
+#### 3.1.3 Semantics
 
 Use HTML according to its purpose.
 
@@ -185,7 +185,7 @@ Using HTML according to its purpose is important for accessibility, reuse, and c
 <a href="recommendations/">All recommendations</a>
 ```
 
-#### 3.1.4 Multimedia Fallback<a name="Multimedia_Fallback)
+#### 3.1.4 Multimedia Fallback
 
 Provide alternative contents for multimedia.
 
@@ -202,7 +202,7 @@ Providing alternative contents is important for accessibility reasons: A blind u
 <img src="spreadsheet.png" alt="Spreadsheet screenshot." />
 ```
 
-#### 3.1.5 Separation of Concerns<a name="Separation_of_Concerns)
+#### 3.1.5 Separation of Concerns
 
 Separate structure from presentation from behavior.
 
@@ -245,7 +245,7 @@ Separating structure from presentation from behavior is important for maintenanc
 <p>It’s awesome!</p>
 ```
 
-#### 3.1.6 Entity References<a name="Entity_References)
+#### 3.1.6 Entity References
 
 Do not use entity references.
 
@@ -260,7 +260,7 @@ The currency symbol for the Euro is &ldquo;&eur;&rdquo;.
 The currency symbol for the Euro is “€”.
 ```
 
-#### 3.1.7 Optional Tags<a name="Optional_Tags)
+#### 3.1.7 Optional Tags
 
 Omit optional tags (optional).
 
@@ -285,7 +285,7 @@ For file size optimization and scannability purposes, consider omitting optional
 <p>Qed.</p>
 ```
 
-#### 3.1.8 `type` Attributes<a name="type_Attributes)
+#### 3.1.8 `type` Attributes
 
 Omit `type` attributes for style sheets and scripts.
 
