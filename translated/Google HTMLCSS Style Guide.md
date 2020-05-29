@@ -1,8 +1,8 @@
-# Google HTML/CSS Style Guide
+# 구글 HTML/CSS 스타일 가이드
 
 ref: https://google.github.io/styleguide/htmlcssguide.html
 
-### Table of Contents
+### 목차
 
 [1 Background](#Background)  
 [2 General](#General)  
@@ -20,7 +20,7 @@ ref: https://google.github.io/styleguide/htmlcssguide.html
 
 ## <a name="Background">1 Background </a>
 
-This document defines formatting and style rules for HTML and CSS. It aims at improving collaboration, code quality, and enabling supporting infrastructure. It applies to raw, working files that use HTML and CSS, including GSS files. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
+이 문서는 HTML과 CSS을 작성하고 스타일을 잡는 규칙을 정의하는 목적으로 작성되었습니다. 이 문서는 협업효율과 코드 품질을 증대시키고 지원 인프라를 활성화시키는데 초점을 맞추고 있습니다. It applies to raw, working files that use HTML and CSS, including GSS files. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
 
 ## <a name="General">2 General</a>
 
